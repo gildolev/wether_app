@@ -1,0 +1,39 @@
+
+*{
+    font-size: 1rem;;
+}
+.day{
+    width: 18%;
+    display: inline-block;
+    border: 1px lightgray solid;
+    text-align: center;
+}
+.description span {
+    margin: 5px;
+}
+.description span {
+    margin: 5px;
+}
+
+.temperature:after{
+    content: "\00b0"
+}
+.temperature{
+    color:lightgray;
+}
+body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        color: #8f90a3;
+        background-color: #232435;
+        background-image: linear-gradient(45deg, #232435, #35415f);
+}
+    
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
